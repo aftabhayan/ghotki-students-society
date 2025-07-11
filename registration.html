@@ -1,31 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Student Registration</title>
-</head>
+<head><title>Registration</title></head>
 <body>
-  <h1>Apply for Test</h1>
-  <form method="POST" action="https://formspree.io/f/mayldzpn" enctype="multipart/form-data">
-    <input type="text" name="Student Name" placeholder="Student Name" required><br>
-    <input type="text" name="Father Name" placeholder="Father Name" required><br>
-    <input type="text" name="School Name" placeholder="School Name" required><br>
+  <h1>Student Registration</h1>
+  <form>
+    <label>Student Name:</label><input type="text" required><br>
+    <label>Father Name:</label><input type="text" required><br>
+    <label>School Name:</label><input type="text" required><br>
     <label>Class:</label>
-    <select name="Class">
-      <option>Class 3</option>
-      <option>Class 4</option>
-      <option>Class 5</option>
-      <option>Class 6</option>
-      <option>Class 7</option>
-      <option>Class 8</option>
-      <option>Class 9</option>
-      <option>Class 10</option>
-      <option>Class 11</option>
-      <option>Class 12</option>
+    <select required>
+      <option>Class 3</option><option>Class 4</option><option>Class 5</option>
+      <option>Class 6</option><option>Class 7</option><option>Class 8</option>
+      <option>Class 9</option><option>Class 10</option>
+      <option>1st Year</option><option>2nd Year</option>
     </select><br>
-    <input type="tel" name="Contact Number" placeholder="Contact Number" required><br>
-    <input type="email" name="Email" placeholder="Email (Optional)"><br>
-    <label>Upload File (PDF/JPG/PNG/Word):</label><br>
-    <input type="file" name="Attachment" accept=".pdf,.jpg,.png,.doc,.docx"><br><br>
+    <label>Contact Number:</label><input type="number" required><br>
+    <label>Email (optional):</label><input type="email"><br>
     <button type="submit">Submit</button>
   </form>
 </body>
