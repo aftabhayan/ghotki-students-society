@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Registration</title>
+</head>
+<body>
+  <h1>Apply for Test</h1>
+  <form method="POST" action="https://formspree.io/f/mayldzpn" enctype="multipart/form-data">
+    <input type="text" name="Student Name" placeholder="Student Name" required><br>
+    <input type="text" name="Father Name" placeholder="Father Name" required><br>
+    <input type="text" name="School Name" placeholder="School Name" required><br>
+    <label>Class:</label>
+    <select name="Class">
+      <option>Class 3</option>
+      <option>Class 4</option>
+      <option>Class 5</option>
+      <option>Class 6</option>
+      <option>Class 7</option>
+      <option>Class 8</option>
+      <option>Class 9</option>
+      <option>Class 10</option>
+      <option>Class 11</option>
+      <option>Class 12</option>
+    </select><br>
+    <input type="tel" name="Contact Number" placeholder="Contact Number" required><br>
+    <input type="email" name="Email" placeholder="Email (Optional)"><br>
+    <label>Upload File (PDF/JPG/PNG/Word):</label><br>
+    <input type="file" name="Attachment" accept=".pdf,.jpg,.png,.doc,.docx"><br><br>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
