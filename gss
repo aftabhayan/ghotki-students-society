@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ghotki Students Society - Home</title>
+</head>
+<body>
+  <h1>Welcome to Ghotki Students Society (GSS)</h1>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="about.html">About</a> |
+    <a href="registration.html">Register</a> |
+    <a href="events.html">Events</a> |
+    <a href="competitions.html">Competitions</a> |
+    <a href="gallery.html">Gallery</a> |
+    <a href="team.html">Our Team</a> |
+    <a href="announcements.html">Announcements</a> |
+    <a href="contact.html">Contact</a>
+  </nav>
+  <p>Empowering students of Ghotki through competitions, awareness & recognition.</p>
+</body>
+</html>
